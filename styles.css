@@ -94,12 +94,18 @@ body{
     background-position: left;
     background-image: url('https://cdn.discordapp.com/attachments/787257444615061524/902849543153004574/unknown.png');
 }
+.pf{
+    background-image: url('https://cdn.discordapp.com/attachments/787257444615061524/902883520937078804/unknown.png');
+}
+.kon{
+    background-image: url('https://cdn.discordapp.com/attachments/787257444615061524/902941242818703390/unknown.png');
+}
 .check-link{
     border: 3px solid white;
     padding: 10px 20px;
     color: white;
     text-decoration: none;
-    transition: .7s;
+    transition: .4s;
 }
 .check-link:hover{
     background-color: #fff;
