@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -12,7 +13,7 @@ body{
  
 }
 header{
-    box-shadow: 0px 0px 20px 2px rgba(162, 0, 255, 0.952);
+    box-shadow: 0px 0px 20px 2px rgba(162, 0, 255, 1);
     background-color: rgb(0, 0, 0);
     color: #fff;
     padding: 25px 10px;
@@ -90,24 +91,24 @@ header{
 }
 
 .color{
-    background-image : url('https://cdn.discordapp.com/attachments/787257444615061524/902626654730465310/unknown.png');
+    background-image : url('https://cdn.discordapp.com/attachments/787257444615061524/903295518514499625/gen.png');
  
 }
 .brightnessReducer{
-    background-image : url('https://cdn.discordapp.com/attachments/787257444615061524/902819409364676619/unknown.png');
+    background-image : url('https://cdn.discordapp.com/attachments/787257444615061524/903296985233231882/e-min.jpg');
 }
 .sevenTV{
-    background-image: url('https://cdn.discordapp.com/attachments/787257444615061524/902823467974537216/unknown.png');
+    background-image: url('https://cdn.discordapp.com/attachments/787257444615061524/903302710491754506/f-min1.jpg');
 }
 .ig-ext{
     background-position: left;
-    background-image: url('https://cdn.discordapp.com/attachments/787257444615061524/902849543153004574/unknown.png');
+    background-image: url('https://cdn.discordapp.com/attachments/787257444615061524/903299473399238666/unknown-min.png');
 }
 .pf{
-    background-image: url('https://cdn.discordapp.com/attachments/787257444615061524/902883520937078804/unknown.png');
+    background-image: url('https://cdn.discordapp.com/attachments/787257444615061524/903300060798914590/unkn2own-min.png');
 }
 .kon{
-    background-image: url('https://cdn.discordapp.com/attachments/787257444615061524/902941242818703390/unknown.png');
+    background-image: url('https://cdn.discordapp.com/attachments/787257444615061524/903300599523713055/udnknown-min.png');
 }
 .check-link{
     border: 3px solid white;
@@ -118,6 +119,24 @@ header{
 }
 .check-link:hover{
     background-color: #fff;
+    color: #000;
+}
+#works{
+    
+    margin: auto;
+    color: #fff;
+}
+.linktoWorks{
+    text-decoration: none;
+    border: 3px solid white;
+    width: fit-content;
+     padding: 15px 30px;
+     color: #fff;
+     margin-top: 20px;
+    transition: .5s;
+    }
+.linktoWorks:hover{
+    background-color: white;
     color: #000;
 }
 @media only screen and (min-width: 760px) {
@@ -140,7 +159,23 @@ header{
         width: 990px;
         min-height: 100vh;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: stretch;
     }
+    .about-me{
+        width: 990px;
+        margin: auto;
+        color: white;
+        padding: 40px 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    min-height: 100vh;
+    }
+    .about-me h1{
+        font-size: 36px;
+    }
+    #works{
+        width: 990px;
+      }
   }
