@@ -64,8 +64,9 @@ header{
 .card-footer{
     flex: 3;
     display: grid;
-    place-items: center;
+    align-items: center;
     background-color: #111;
+    line-height: 1.6;
 }
  
 .card-header::before {
@@ -110,6 +111,17 @@ header{
 }
 .kon{
     background-image: url('https://cdn.discordapp.com/attachments/787257444615061524/903300599523713055/udnknown-min.png');
+}
+.rabbit{
+    background-image: url('https://cdn.discordapp.com/attachments/1074232956924735528/1080676748175360000/image.png');
+}
+.units{
+    background-image: url('https://cdn.discordapp.com/attachments/1074232956924735528/1080680844445876224/image.png');
+
+}
+.help-ukraine{
+    background-image: url('https://cdn.discordapp.com/attachments/1074232956924735528/1080692629240561755/image.png');
+
 }
 .check-link{
     border: 3px solid white;
